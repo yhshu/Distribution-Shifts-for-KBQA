@@ -1,12 +1,11 @@
 # Distribution Shifts for KBQA
 
-Official code for the paper "Distribution Shifts Are Bottlenecks: Extensive Evaluation for
-Grounding Language Models to Knowledge Bases". 
+Official code for EACL'24 SRW paper "Distribution Shifts Are Bottlenecks: Extensive Evaluation for Grounding Language Models to Knowledge Bases". 
 
-[[arXiv](https://arxiv.org/pdf/2309.08345.pdf)] [Proceedings] [[Hugging Face Datasets](https://huggingface.co/datasets/yhshu/TIARA-GAIN/tree/main)]
+[[arXiv](https://arxiv.org/pdf/2309.08345.pdf)] [Proceedings] [[🤗 Datasets](https://huggingface.co/datasets/yhshu/TIARA-GAIN/tree/main)]
 
 This repo contains a data augmentation method named **G**raph se**A**rch and quest**I**on generatio**N** (GAIN).
-GAIN could be used to augment any neural KBQA models.
+GAIN could be used to augment any neural KBQA models. For the TIARA model in this paper, please check this [repo](https://github.com/microsoft/KC/tree/main/papers/TIARA).
 
 ## Citation
 
@@ -75,7 +74,7 @@ To evaluate your QA results with `utils/statistics/graphq_evaluate.py`, you may 
 
 ## Data Resources
 
-Datasets and retrieval results using TIARA and TIARA + GAIN can be found at [Hugging Face Datasets](https://huggingface.co/datasets/yhshu/TIARA-GAIN/tree/main).
+Datasets and retrieval results using TIARA and TIARA + GAIN can be found at [🤗 Datasets](https://huggingface.co/datasets/yhshu/TIARA-GAIN/tree/main).
 
 ### Datasets
 
