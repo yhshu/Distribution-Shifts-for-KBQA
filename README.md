@@ -48,13 +48,13 @@ python algorithm/graph_query/triple_search.py --output_dir ../dataset/question_g
 If the QG models have been trained, the training will be skipped and verbalization will be performed.
 In this step, you can directly use our implementation or modify the code to train a verbalizer on any KBQA datasets with logical form / triple annotations.
 
-Training QG model for logical form:
+Training QG model for logical form ([checkpoint](https://huggingface.co/yhshu/GAIN-logical-form-question-generation)):
 
 ```shell
 python algorithm/question_generation/logical_form_question_generation.py --model_dir ../model/logical_form_question_generation
 ```
 
-Training QG model for triple:
+Training QG model for triple ([checkpoint](https://huggingface.co/yhshu/GAIN-triple-question-generation/)):
 
 ```shell
 python algorithm/question_generation/triple_question_generation.py --model_dir ../model/triple_question_generation
