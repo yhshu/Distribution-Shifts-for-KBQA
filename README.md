@@ -9,14 +9,23 @@ GAIN could be used to augment any neural KBQA models. For the TIARA model in thi
 
 ## Citation
 
+If you find this paper or repo useful, please cite:
+
 ```
-@article{shu2023data,
-      title={Distribution Shifts Are Bottlenecks: Extensive Evaluation for Grounding Language Models to Knowledge Bases}, 
-      author={Yiheng Shu and Zhiwei Yu},
-      year={2023},
-      eprint={2309.08345},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{shu-yu-2024-distribution,
+    title = "Distribution Shifts Are Bottlenecks: Extensive Evaluation for Grounding Language Models to Knowledge Bases",
+    author = "Shu, Yiheng  and
+      Yu, Zhiwei",
+    editor = "Falk, Neele  and
+      Papi, Sara  and
+      Zhang, Mike",
+    booktitle = "Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics: Student Research Workshop",
+    month = mar,
+    year = "2024",
+    address = "St. Julian{'}s, Malta",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.eacl-srw.7",
+    pages = "71--88"
 }
 ```
 
